@@ -1,0 +1,131 @@
+@import url(/style.scss);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: white;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.star-icon {
+  background-color: hsl(213, 19%, 18%);
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: hsl(213, 18%, 24%);
+  margin-bottom: 20px;
+}
+
+.attribution {
+  bottom: 2%;
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.button-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.rating-btn {
+  color: hsl(225, 20%, 92%);
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: none;
+  background: hsl(213, 18%, 24%);
+  transition: all 0.3s ease;
+}
+
+.rating-btn:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.active {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.active:hover{
+  background-color: hsl(217, 12%, 63%);
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 15px;
+  padding: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-out;
+}
+button[type="submit"]:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+@media all and (max-width: 480px) {
+  .container {
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+  }
+}
+
+/* Thank you section */
+
+.thank-you-section {
+  text-align: center;
+  display: none;
+}
+
+.thank-you-section .selected {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 18%, 24%);
+  height: 30px;
+  padding: 5px;
+  width: 180px;
+  margin: 20px auto;
+  border-radius: 35px;
+}
+
+span {
+  color: hsl(25, 97%, 53%);
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
