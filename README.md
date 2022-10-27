@@ -8,11 +8,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-
-- [Author](#author)
-
+  - [Author](#author)
 
 ## Overview
 
@@ -26,12 +23,11 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
+![desktop-design](https://user-images.githubusercontent.com/99952793/198369717-8b177126-b329-4a51-be37-2ba6cceb8df8.jpg)
 
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://celebrated-salamander-4cec51.netlify.app/)
 
 ## My process
 
@@ -39,7 +35,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- JS
+- Vanilla JavaScript
  
 ## Author
 
